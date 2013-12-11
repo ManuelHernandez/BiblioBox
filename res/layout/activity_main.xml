@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+	<Button 
+      android:id="@+id/auth_button" 
+	  android:text="Link with Dropbox" 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+	  />
+    <LinearLayout
+        android:id="@+id/logged_in_display" 
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+       	android:layout_marginTop="15dp">
+        
+
+	    <TextView
+	        android:id="@+id/textView0"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Listado de Libros"
+	        android:textSize="25sp" />	
+	        
+        
+       	<Spinner
+	        android:id="@+id/spinner"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	       	android:layout_marginTop="10dp"/> 
+
+	    <TextView
+	        android:id="@+id/textView0"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="Libros:"
+	        android:textSize="15sp" 
+	       	android:layout_marginTop="20dp" />       	
+        
+	    <ListView
+	        android:id="@+id/listView"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content" 
+/>  
+
+    </LinearLayout>
+</LinearLayout>
+	      

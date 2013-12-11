@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BiblioBox</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+
+	
+    <!-- Pantalla de login -->
+    
+    <string name="bienvenida">Bienvenida a BiblioBox</string>
+    <string name="textoLogin">Introduzca su nombre de usuario y contraseña para conectar con Dropbox </string>
+    <string name="nombreLogin">Nombre de usuario: </string>
+    <string name="password">Contraseña: </string>
+    <string name="btn_conectarDropbox">Conectar con Dropbox </string>
+    
+    
+</resources>
